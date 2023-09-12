@@ -65,4 +65,4 @@ for i in range(num_iterations):
         turtle2.pencolor(random_color)
         current_group += 1
 
-input("Cant seem to find anything else to keep the popup open at the moment.")
+turtle.exitonclick()
