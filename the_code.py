@@ -1,3 +1,5 @@
+''' TODO: mess with the pen up and down stuff'''
+
 import turtle
 import random
 
