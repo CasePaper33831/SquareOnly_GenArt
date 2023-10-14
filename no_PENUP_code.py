@@ -60,5 +60,3 @@ for i in range(num_iterations):
         random_color = (random.random(), random.random(), random.random())
         turtle2.pencolor(random_color)
         current_group += 1
-
-turtle.exitonclick()
