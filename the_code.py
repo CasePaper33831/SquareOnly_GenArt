@@ -14,10 +14,9 @@ turtle2 = turtle.Turtle()
 turtle2.speed(0)
 
 num_iterations = int(input("Enter the number of iterations for the loop (no commas): "))
-
-group_size = 4 # "sides" of square. if above 4, spiral effect starts
+num_sides = int(input("How many sides in the square? no commas: "))
+group_size = num_sides # "sides" of square. if above 4, spiral effect starts
 current_group = 1
-
 turtle1.penup()
 turtle1.backward(91)
 turtle1.pendown()
